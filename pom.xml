@@ -20,13 +20,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <repositories>
+  <distributionManagement>
     <repository>
       <id>github</id>
       <name>GitHub OWNER Apache Maven Packages</name>
       <url>https://maven.pkg.github.com/ShookTea/maven-test</url>
     </repository>
-  </repositories>
+  </distributionManagement>
   <build>
     <plugins>
       <plugin>
