@@ -6,9 +6,4 @@ public class SomeTests {
     public void testSuccessfully() {
         Assert.assertTrue(true);
     }
-
-    @Test
-    public void testFailed() {
-        Assert.assertTrue(false);
-    }
 }
